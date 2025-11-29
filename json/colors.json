@@ -1,0 +1,122 @@
+[
+  {
+    "color": "blue",
+    "shade": {
+      "Aero": {
+        "hex": "#7CB9E8"
+      },
+      "Astros Navy": {
+        "hex": "#002D62"
+      },
+      "Azure": {
+        "hex": "#007FFF"
+      },
+      "Cadet blue": {
+        "hex": "#5F9EA0"
+      },
+      "Capri": {
+        "hex": "#00BFFF"
+      }
+    }
+  },
+  {
+    "color": "Red",
+    "shade": {
+      "49ers Red": {
+        "hex": "#AA0000"
+      },
+      "Alizarin Crimson": {
+        "hex": "#E32636"
+      },
+      "Angels Red": {
+        "hex": "#BA0021"
+      },
+      "Apricot": {
+        "hex": "#FBCEB1"
+      },
+      "Burgundy": {
+        "hex": "#800020"
+      },
+      "Crimson": {
+        "hex": "#DC143C"
+      }
+    }
+  },
+  {
+    "color": "Green",
+    "shade": {
+      "Android Green": {
+        "hex": "#32de84"
+      },
+      "Army Green": {
+        "hex": "#4B5320"
+      },
+      "Avocado": {
+        "hex": "#568203"
+      },
+      "Bright Green": {
+        "hex": "#66FF00"
+      },
+      "Celtic FC Green": {
+        "hex": "#018749"
+      },
+      "Dark Green": {
+        "hex": "#006400"
+      },
+      "Erin": {
+        "hex": "#00FF40"
+      }
+    }
+  },
+  {
+    "color": "Pink",
+    "shade": {
+      "Fuchsia": {
+        "hex": "#FF00FF"
+      },
+      "Hot Pink": {
+        "hex": "#FF69B4"
+      },
+      "Pink": {
+        "hex": "#FFC0CB"
+      }
+    }
+  },
+  {
+    "color": "Purple",
+    "shade": {
+      "Indigo": {
+        "hex": "#4B0082"
+      },
+      "Lavender": {
+        "hex": "#E6E6FA"
+      },
+      "Plum": {
+        "hex": "#DDA0DD"
+      },
+      "Purple": {
+        "hex": "#800080"
+      },
+      "Thistle": {
+        "hex": "#D8BFD8"
+      },
+      "Violet": {
+        "hex": "#EE82EE"
+      }
+    }
+  },
+  {
+    "color": "Yellow",
+    "shade": {
+      "Gold": {
+        "hex": "#FFD700"
+      },
+      "Khaki": {
+        "hex": "#F0E68C"
+      },
+      "Yellow": {
+        "hex": "#FFFF00"
+      }
+    }
+  }
+]

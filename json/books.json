@@ -1,0 +1,58 @@
+[
+  {
+    "bookId": 1,
+    "name": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "publisher": "Orion",
+    "language": "English",
+    "released": null
+  },
+  {
+    "bookId": 2,
+    "name": "The Girl in the Glass Case",
+    "author": "Devashish Sardana",
+    "publisher": "Penguin eBury Press",
+    "language": "English",
+    "released": null
+  },
+  {
+    "bookId": 3,
+    "name": "Ghosts of The Silent Hills",
+    "author": "Anita Krishan",
+    "publisher": "Fingerprint",
+    "language": "English",
+    "released": null
+  },
+  {
+    "bookId": 4,
+    "name": "The Woman in the Window",
+    "author": "A. J. Finn",
+    "publisher": "HarperCollins",
+    "language": "English",
+    "released": null
+  },
+  {
+    "bookId": 5,
+    "name": "Never Lie",
+    "author": "The Housemaid Freida McFadden",
+    "publisher": "Penguin",
+    "language": "English",
+    "released": null
+  },
+  {
+    "bookId": 6,
+    "name": "A Court of Mist and Fury\r\n",
+    "author": "Sarah J. Maas",
+    "publisher": "Bloomsbury Publishing",
+    "language": "English",
+    "released": null
+  },
+  {
+    "bookId": 7,
+    "name": "Chivalry",
+    "author": "James Branch Cabell",
+    "publisher": "Standard Ebooks",
+    "language": "English",
+    "released": null
+  }
+]
