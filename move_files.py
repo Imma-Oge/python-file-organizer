@@ -1,63 +1,63 @@
 # This scripts caaptures step by step how to move files into respective json  and csv folders in the repository 
 # It follows 2 methods.-
-# Creating directories through the terminal using mkdir
+# Creating directories through the terminal, moving files into respective directories.
 #  creating file list in the directo and moving the content of the list to designated folders
 
-# option 2 uses python modules to create folders and move files into thes folders.
+# option 2 uses python modules os, shutil functions to create folders and move files into these folders.
 
 
 #solution1
 
 
-#define a function that tacks the files 
+#define a function that tracks the files 
 
 #import os and shutil for creating and moving directories and files  
-# import os
-# import shutil
+import os
+import shutil
 
 
 # #create a list 
 
 
-# files = [
-#     "business-financial-data.csv",
-#     "economic-survey.csv",
-#     "research-and-development.csv",
-#     "report.txt",
-#     "colors.json",
-#     "books.json",
-#     "employees.json",
-#     "report.csv"
-# ]
+file_list = [
+    "business-financial-data.csv",
+    "economic-survey.csv",
+    "research-and-development.csv",
+    "report.txt",
+    "colors.json",
+    "books.json",
+    "employees.json",
+    "report.csv"
+]
 
 
-# # creating a function that first checks existence of csv,json folders
+# creating a function that first checks existence of csv,json folders
 
 
-# def move_files(file_list):
-#     # Ensure destination folders exist
-#     os.makedirs("csv", exist_ok=True)
-#     os.makedirs("json", exist_ok=True)
+def move_files(file_list):
+    # Ensure destination folders exist
+    os.makedirs("csv", exist_ok=True)
+    os.makedirs("json", exist_ok=True)
 
-#     for file in file_list:
-#         if not os.path.exists(file):
-#             print(f"❌ File not found: {file}")
-#             continue
+    for file in file_list:
+        if not os.path.exists(file):
+            print(f"❌ File not found: {file}")
+            continue
 
-#         ext = os.path.splitext(file)[1].lower()
+        ext = os.path.splitext(file)[1].lower()
 
-#         if ext == ".csv":
-#             shutil.move(file, "csv/")
-#             print(f"📁 Moved {file} → csv/")
-#         elif ext == ".json":
-#             shutil.move(file, "json/")
-#             print(f"📁 Moved {file} → json/")
-#         else:
-#             print(f"⚠️ Skipped {file} (unsupported file type)")
+        if ext == ".csv":
+            shutil.move(file, "csv/")
+            print(f"📁 Moved {file} → csv/")
+        elif ext == ".json":
+            shutil.move(file, "json/")
+            print(f"📁 Moved {file} → json/")
+        else:
+            print(f"⚠️ Skipped {file} (unsupported file type)")
 
 
 
-# move_files(files)
+move_files(file_list)
 
 
 #option 2 
@@ -68,16 +68,7 @@ import os
 import shutil
 
 directory = r"c:\Users\USER\python_file_organizer"
-# file_type = [
-#     "business-financial-data.csv",
-#     "economic-survey.csv",
-#     "research-and-development.csv",
-#     "report.txt",
-#     "colors.json",
-#     "books.json",
-#     "employees.json",
-#     "report.csv"
-# ]
+
 file_type = {
     "csv": [".csv"],
     "json": [".json"],
